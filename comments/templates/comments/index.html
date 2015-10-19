@@ -1,0 +1,15 @@
+{% load staticfiles %}
+
+<html>
+    <head>
+        <script src="{% static "comments/libs/react-0.14.0.js" %}"></script>
+        <script src="{% static "comments/libs/react-dom-0.14.0.js" %}"></script>
+        <script src="{% static "comments/libs/browser.min.js" %}"></script>
+        <link rel="stylesheet" href="{% static "comments/css/styles.css" %}">
+    </head>
+    <body>
+    {{ articles }}
+        <div id="content"></div>
+    </body>
+    <script src="{% static "comments/build/myscript.js" %}"></script>
+</html>
