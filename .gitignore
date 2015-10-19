@@ -1,0 +1,5 @@
+*.pyc
+dev_storage/
+db.sqlite3
+bower_components/
+*migrations/
