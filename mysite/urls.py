@@ -20,5 +20,6 @@ from comments import views as comment_views
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', comment_views.index, name='home')
+    url(r'^$', comment_views.index, name='home'),
+    url(r'^api/comments/$', comment_views.all_comments, name='comments')
 ]

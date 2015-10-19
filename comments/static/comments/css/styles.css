@@ -1,5 +1,6 @@
 body {
     background-color: #ebebeb;
+    font-family: 'Raleway';
 }
 
 .post {
@@ -7,4 +8,37 @@ body {
     background-color: #fff;
     margin-top: 20px;
     max-width: 600px;
+}
+
+.commentBox {
+    display: block;
+    width: 800px;
+    background-color: white;
+    padding: 12px;
+}
+.commentList {
+    display: block;
+    width: 800px;
+    background-color: white;
+    padding: 0;
+}
+
+.comment {
+    width: 600px;
+    display: inline-block;
+}
+.comment span {
+    margin-right: 12px;
+}
+.comment .owner {
+    color: rgb(11, 103, 170);
+}
+.commentForm {
+    width: inherit;
+}
+.commentFormInput {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #4b4f54;
 }
